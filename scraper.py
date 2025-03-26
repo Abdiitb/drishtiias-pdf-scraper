@@ -48,7 +48,7 @@ for year in years:
 pdf_data_list = []
 
 # Download PDFs and extract metadata with a progress bar
-for link in tqdm(pdf_links[1:2], desc="📥 Downloading & Extracting PDFs", unit="pdf"):
+for link in tqdm(pdf_links, desc="📥 Downloading & Extracting PDFs", unit="pdf"):
     try:
         filename = link.split('/')[-1]  # Extract filename from URL
         file_path = os.path.join(DOWNLOAD_FOLDER, filename)  # Define local save path
