@@ -12,7 +12,7 @@ This project scrapes and downloads monthly current affairs PDFs from [DrishtiIAS
 
 Clone the repository:  
 ```bash
-git clone https://github.com/yourusername/drishtiias-pdf-scraper.git
+https://github.com/Abdiitb/drishtiias-pdf-scraper.git
 cd drishtiias-pdf-scraper
 ```
 
@@ -49,22 +49,15 @@ A JSON file named `pdf_metadata.json` will be created in the root directory, con
 #### Example JSON Output:  
 ```json
 [
-  {
-    "pdf_url": "https://www.drishtiias.com/path-to-pdf",
-    "local_path": "downloaded_pdfs/Current_Affairs_January_2024.pdf",
-    "Title": "Current Affairs January 2024",
-    "Author": "DrishtiIAS",
-    "CreationDate": "01/01/2024 10:30:00",
-    "ModDate": "02/01/2024 12:15:00"
-  },
-  {
-    "pdf_url": "https://www.drishtiias.com/path-to-another-pdf",
-    "local_path": "downloaded_pdfs/Current_Affairs_February_2024.pdf",
-    "Title": "Current Affairs February 2024",
-    "Author": "DrishtiIAS",
-    "CreationDate": "01/02/2024 09:45:00",
-    "ModDate": "02/02/2024 11:20:00"
-  }
+    {
+        "pdf_url": "https://www.drishtiias.com/hindi/images/pdf/current-affairs-February-2025-Part-2.pdf",
+        "local_path": "downloaded_pdfs\\current-affairs-February-2025-Part-2.pdf",
+        "CreationDate": "13/03/2025 10:25:16",
+        "Creator": "Adobe InDesign 20.1 (Windows)",
+        "ModDate": "13/03/2025 10:25:40",
+        "Producer": "Adobe PDF Library 17.0",
+        "Trapped": "/False"
+    }
 ]
 ```
 
